@@ -53,3 +53,6 @@ dkms.conf
 
 # Makefile binaries
 bin
+
+# VSCode config
+.vscode
