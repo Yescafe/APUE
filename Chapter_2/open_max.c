@@ -28,7 +28,6 @@ open_max(void)
 int
 main(void)
 {
-    size_t
     long openmax = open_max();
     printf("Open file max = %ld\n", openmax);
     exit(0);
