@@ -27,7 +27,7 @@ APUE 书中的代码。
 - [ ] 第 21 章 - 与网络打印机通信 
 
 ## 环境
-- **系统环境:** Ubuntu 18.04 (Windows Subsystem of Linux) x64
-- **编译器环境:** cc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
+- **系统环境:** Fedora 32 (Workstation Edition)
+- **编译器环境:** cc (GCC) 10.1.1 20200507 (Red Hat 10.1.1-1)
 - 本书中出现的程序依赖于 `APUE.h` 库，需要进行手动编译，参考：
   [https://blog.csdn.net/qq_29116917/article/details/103786194](https://blog.csdn.net/qq_29116917/article/details/103786194)
