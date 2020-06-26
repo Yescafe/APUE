@@ -4,7 +4,7 @@ ccflags := -std=c99 -Wall -lapue
 pwd          := $(shell pwd)
 sub_dir      := $(notdir $(pwd))
 out_dir      := $(addsuffix $(sub_dir),../bin/)
-target_name  := $(shell ls *.c)
+target_name  := $(shell ls *.c | grep -v "getpwnam\.c")
 target_name  := $(patsubst %.c,%,$(target_name))
 target       := $(addprefix $(out_dir)/,$(target_name))
 
