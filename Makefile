@@ -6,6 +6,7 @@ all:
 	cd Chapter_5 && make
 	cd Chapter_6 && make
 	cd Chapter_7 && make
+	cd Chapter_8 && make
 
 .PHONY:
 clean:
