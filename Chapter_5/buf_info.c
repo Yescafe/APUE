@@ -80,7 +80,7 @@ is_linebuffered(FILE *fp)
 int
 buffer_size(FILE *fp)
 {
-    return(fp->_bf.size);
+    return(fp->_bf._size);
 }
 
 #elif defined(_IONBF)

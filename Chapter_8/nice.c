@@ -4,7 +4,9 @@
 #include <sys/time.h>
 
 #if defined(MACOS)
+#ifndef __linux__
 #include <sys/syslimits.h>
+#endif   // __linux__
 #elif defined(SOLARIS)
 #include <limits.h>
 #elif defined(BSD)

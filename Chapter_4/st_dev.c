@@ -1,7 +1,7 @@
 #include "apue.h"
-#ifdef SOLARIS                 // Solaris
+#ifdef SOLARIS
 #include <sys/mkdev.h>
-#else                          // Linux
+#elif defined(__linux__)
 #include <sys/sysmacros.h>
 #endif
 

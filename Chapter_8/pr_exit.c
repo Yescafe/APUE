@@ -11,7 +11,7 @@ pr_exit(int status)
         printf("abnormal termination, exit status = %d%s\n",
             WTERMSIG(status),
 #ifdef WCOREDUMP
-            __WCOREDUMP ? " (core file generated)" : "");
+            WCOREDUMP(status) ? " (core file generated)" : "");
 #else
             "");
 #endif
