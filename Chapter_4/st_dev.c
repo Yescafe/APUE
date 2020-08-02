@@ -1,8 +1,6 @@
 #include "apue.h"
-#ifdef SOLARIS                 // Solaris
+#ifdef SOLARIS
 #include <sys/mkdev.h>
-#else                          // Linux
-#include <sys/sysmacros.h>
 #endif
 
 int
